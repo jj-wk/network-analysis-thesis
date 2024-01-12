@@ -1,2 +1,7 @@
-# network-analysis-thesis
-Thesis: “Identifying Relevant Links in Complex Networks”, comparing different techniques to calculate backbones in complex data networks, such as international flight datasets, and creating alternative methods to verify which technique is most applicable in real life examples using Matlab
+# Identifying Relevant Links in Complex Networks
+
+My Master Thesis investigated the different ways that the relevant links of complex networks could be identified, as well as proposing a way to compare the effectiveness of network filtering techniques (Polya Urn and Hypergeometric Cumulative Distribution Frequency) using synthetically generated networks. Filtering out irrelevant links in complex networks is a technological problem which has existed since the early 2000s, but due to no definitive correct answer existing it is difficult to assess whether filters produce correct or proper results. By introducing the testing of filtering methods with a synthetic network, the factors which affect the calculated backbones of filters can be identified, to gain a better understanding where specific filtering techniques can be best applied. In the paper filters were first tried on a real-life network, after which they were applied to a uniformly generated network using MATLAB.
+
+To assess what parts of a network affected the results, the generated dataset underwent three different alterations to its data, and it was investigated whether two filtering techniques could identify these new anomalies, as well as how this affected the final extracted backbone. Using the data from the real-life and synthetic network in conjunction allowed for an analysis to take place of what features of a complex network change the results of different filtering techniques. The MATLAB code is printed in this repository.
+
+Awarded: 82%
